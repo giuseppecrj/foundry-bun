@@ -10,6 +10,7 @@
   "devDependencies": {
     "forge-std": "github:foundry-rs/forge-std#v1.16.1",
     "prettier": "^3.0.0",
-    "prettier-plugin-solidity": "^2.3.1"
+    "prettier-plugin-solidity": "^2.3.1",
+    "prettier-plugin-toml": "^2.0.6"
   }
 }
