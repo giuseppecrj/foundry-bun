@@ -1,14 +1,21 @@
-// SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.33;
+
+// libraries
+import {CounterStore} from "./CounterStore.sol";
 
 contract Counter {
-    uint256 public number;
+    using CounterStore for CounterStore.Storage;
 
-    function setNumber(uint256 newNumber) public {
-        number = newNumber;
+    function number() external view returns (uint256) {
+        return CounterStore.getStorage().number;
     }
 
-    function increment() public {
-        number++;
+    function setNumber(uint256 newNumber) external {
+        CounterStore.getStorage().number = newNumber;
+    }
+
+    function increment() external {
+        CounterStore.getStorage().number++;
     }
 }
