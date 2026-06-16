@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "jdx.mise",
+    "NomicFoundation.hardhat-solidity",
+    "esbenp.prettier-vscode"
+  ]
+}

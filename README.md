@@ -29,6 +29,9 @@ Replace `my-project` with your project name. `mise install` installs the tool ve
 - Bun lockfile/package setup
 - Mise tool pinning for Bun and Foundry
 - Prettier formatting, including Solidity via `prettier-plugin-solidity`
+- Mise tasks for install, build, test, format, and check
+- GitHub Actions CI running `mise run check`
+- VS Code recommendations/settings for mise, Solidity, and Prettier
 - `forge-std`
 - OpenZeppelin Contracts
 - Solady
