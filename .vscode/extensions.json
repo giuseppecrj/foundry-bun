@@ -1,6 +1,6 @@
 {
   "recommendations": [
-    "jdx.mise",
+    "hverlin.mise-vscode",
     "NomicFoundation.hardhat-solidity",
     "esbenp.prettier-vscode"
   ]
