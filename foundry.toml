@@ -1,0 +1,13 @@
+[profile.default]
+src = "src"
+out = "out"
+test = "test"
+block_timestamp = 1_680_220_800 # March 31, 2023 at 00:00 GMT
+solc_version = "0.8.34"
+libs = ["lib"]
+remappings = [
+  "forge-std/=node_modules/forge-std/src",
+  "solady/=node_modules/solady/"
+]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
